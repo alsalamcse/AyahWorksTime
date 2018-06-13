@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtime"
+    android:orientation="vertical"
+    tools:context="com.ayahkh.ayahworkstime.AyahWorksTime"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/Timein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ساعة الدخول"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/Timeout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ساعة الخروج"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="التاريخ"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:onClick="onClick"
+        android:text="حفظ"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+</LinearLayout>
